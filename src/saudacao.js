@@ -18,7 +18,7 @@ console.log(saudacao(null, true)); // Esperado: "Olá, Visitante!"
 console.log(saudacao(undefined, true)); // Esperado: "Olá, Visitante!"
 console.log(saudacao("", true)); // Esperado: "Olá, !"
 console.log(saudacao("Maria", true)); // Esperado: "Olá, Maria!"
-console.log(saudacao("João", false)); // Esperado: undefined
+console.log(saudacao("João", false)); // Esperado: false
 
 
 //NÃO REMOVA O CÓDIGO ABAIXO
